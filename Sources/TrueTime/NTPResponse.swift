@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import ObjCTrueTime
 
 struct NTPResponse {
     let packet: ntp_packet_t

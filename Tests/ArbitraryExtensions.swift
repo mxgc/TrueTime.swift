@@ -8,6 +8,7 @@
 
 @testable import TrueTime
 import SwiftCheck
+import Foundation
 
 extension timeval: Arbitrary {
     public static var arbitrary: Gen<timeval> {

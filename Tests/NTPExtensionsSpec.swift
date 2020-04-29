@@ -10,6 +10,8 @@
 import Nimble
 import Quick
 import SwiftCheck
+import Foundation
+import ObjCTrueTime
 
 final class NTPExtensionsSpec: QuickSpec {
     override func spec() {

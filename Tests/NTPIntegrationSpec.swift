@@ -9,6 +9,7 @@
 @testable import TrueTime
 import Nimble
 import Quick
+import Foundation
 
 final class NTPIntegrationSpec: QuickSpec {
     override func spec() {

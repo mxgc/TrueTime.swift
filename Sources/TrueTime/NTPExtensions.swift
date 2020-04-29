@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import ObjCTrueTime
 
 public extension timeval {
     static func uptime() -> timeval {

@@ -1,0 +1,8 @@
+module ObjCTrueTime [system] {
+  header "TrueTime.h"
+  header "ntp_types.h"
+  
+  link "ObjCTrueTime"
+  
+  export *
+}

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import ObjCTrueTime
 
 typealias NTPConnectionCallback = (NTPConnection, FrozenNetworkTimeResult) -> Void
 
