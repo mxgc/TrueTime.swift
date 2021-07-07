@@ -188,12 +188,12 @@ extension String {
 extension TrueTimeError: CustomStringConvertible {
     public var description: String {
         switch self {
-        case .cannotFindHost: return "The connection failed because the host could not be found.".localized
-        case .dnsLookupFailed: return "The connection failed because the DNS lookup failed.".localized
-        case .timedOut: return "The connection timed out.".localized
-        case .offline: return "The connection failed because the device is not connected to the internet.".localized
-        case .badServerResponse: return "The connection received an invalid server response.".localized
-        case .noValidPacket: return "No valid NTP packet was found.".localized
+        case .cannotFindHost: return "The connection failed because the host could not be found."
+        case .dnsLookupFailed: return "The connection failed because the DNS lookup failed."
+        case .timedOut: return "The connection timed out."
+        case .offline: return "The connection failed because the device is not connected to the internet."
+        case .badServerResponse: return "The connection received an invalid server response."
+        case .noValidPacket: return "No valid NTP packet was found."
         }
     }
 }
